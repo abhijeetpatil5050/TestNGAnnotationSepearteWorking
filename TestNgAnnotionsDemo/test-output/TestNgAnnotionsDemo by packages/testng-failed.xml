@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNgAnnotionsDemo by packages]">
+  <test verbose="2" name="com.abp.one">
+    <packages>
+      <package name="com.abp.one"/>
+    </packages>
+    <classes>
+      <class name="com.abp.one.MTest"/>
+      <class name="com.abp.one.App"/>
+    </classes>
+  </test> <!-- com.abp.one -->
+</suite> <!-- Failed suite [TestNgAnnotionsDemo by packages] -->

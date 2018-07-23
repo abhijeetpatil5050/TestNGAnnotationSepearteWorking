@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNgAnnotionsDemo by groups" duration-ms="78" started-at="2018-07-23T06:15:20Z" finished-at="2018-07-23T06:15:20Z">
+    <groups>
+      <group name="A">
+        <method signature="ATest.a()[pri:0, instance:com.abp.two.ATest@48eff760]" name="a" class="com.abp.two.ATest"/>
+      </group> <!-- A -->
+      <group name="functionalTest">
+        <method signature="ATest.a()[pri:0, instance:com.abp.two.ATest@48eff760]" name="a" class="com.abp.two.ATest"/>
+        <method signature="ATest.b()[pri:0, instance:com.abp.two.ATest@48eff760]" name="b" class="com.abp.two.ATest"/>
+        <method signature="BTest.c()[pri:0, instance:com.abp.two.BTest@7c0e2abd]" name="c" class="com.abp.two.BTest"/>
+        <method signature="CTest.c()[pri:0, instance:com.abp.two.CTest@6a2bcfcb]" name="c" class="com.abp.two.CTest"/>
+        <method signature="DTest.d()[pri:0, instance:com.abp.three.DTest@4de8b406]" name="d" class="com.abp.three.DTest"/>
+        <method signature="ETest.e()[pri:0, instance:com.abp.three.ETest@3c756e4d]" name="e" class="com.abp.three.ETest"/>
+        <method signature="FTest.f()[pri:0, instance:com.abp.four.FTest@174d20a]" name="f" class="com.abp.four.FTest"/>
+      </group> <!-- functionalTest -->
+    </groups>
+    <test name="GRP-functionalTest" duration-ms="78" started-at="2018-07-23T06:15:20Z" finished-at="2018-07-23T06:15:20Z">
+      <class name="com.abp.four.FTest">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.abp.four.FTest@174d20a]" name="f" duration-ms="16" started-at="2018-07-23T11:45:20Z" finished-at="2018-07-23T11:45:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.abp.four.FTest -->
+      <class name="com.abp.two.CTest">
+        <test-method status="PASS" signature="c()[pri:0, instance:com.abp.two.CTest@6a2bcfcb]" name="c" duration-ms="0" started-at="2018-07-23T11:45:20Z" finished-at="2018-07-23T11:45:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c -->
+      </class> <!-- com.abp.two.CTest -->
+      <class name="com.abp.three.DTest">
+        <test-method status="PASS" signature="d()[pri:0, instance:com.abp.three.DTest@4de8b406]" name="d" duration-ms="0" started-at="2018-07-23T11:45:20Z" finished-at="2018-07-23T11:45:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d -->
+      </class> <!-- com.abp.three.DTest -->
+      <class name="com.abp.three.ETest">
+        <test-method status="PASS" signature="e()[pri:0, instance:com.abp.three.ETest@3c756e4d]" name="e" duration-ms="0" started-at="2018-07-23T11:45:20Z" finished-at="2018-07-23T11:45:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e -->
+      </class> <!-- com.abp.three.ETest -->
+      <class name="com.abp.two.BTest">
+        <test-method status="PASS" signature="c()[pri:0, instance:com.abp.two.BTest@7c0e2abd]" name="c" duration-ms="0" started-at="2018-07-23T11:45:20Z" finished-at="2018-07-23T11:45:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c -->
+      </class> <!-- com.abp.two.BTest -->
+      <class name="com.abp.two.ATest">
+        <test-method status="PASS" signature="a()[pri:0, instance:com.abp.two.ATest@48eff760]" name="a" duration-ms="0" started-at="2018-07-23T11:45:20Z" finished-at="2018-07-23T11:45:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="PASS" signature="b()[pri:0, instance:com.abp.two.ATest@48eff760]" name="b" duration-ms="0" started-at="2018-07-23T11:45:20Z" finished-at="2018-07-23T11:45:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+      </class> <!-- com.abp.two.ATest -->
+    </test> <!-- GRP-functionalTest -->
+  </suite> <!-- TestNgAnnotionsDemo by groups -->
+</testng-results>
